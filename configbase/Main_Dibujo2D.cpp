@@ -130,16 +130,19 @@ int main() {
       ///*  glDrawArrays(GL_TRIANGLES,0,3);*/
       //  glDrawElements(GL_TRIANGLES, 3,GL_UNSIGNED_INT,0);
 
-		/*ejercicio 1 clase 26 de agosto 
+		/*
 		glPointSize(10.0f);
 		glDrawArrays(GL_POINTS, 0, 4);*/
 
-		/* Ejercicio 2 clase 26 de agosto
+		/*
 		glDrawArrays(GL_LINES, 0, 4);*/
 
+		/*
+		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);*/
+
+		
 		glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
-        
-        
+
         glBindVertexArray(0);
     
 		// Swap the screen buffers
